@@ -1,0 +1,29 @@
+{
+  "name": "sarcastic-geek",
+  "version": "1.0.0",
+  "description": "Sarcastic Geek - motion graphics with Remotion",
+  "scripts": {
+    "start": "remotion studio",
+    "build": "remotion render",
+    "render:mp4": "remotion render SarcasticGeek out/sarcastic-geek.mp4",
+    "render:gif": "remotion render SarcasticGeek --codec=gif out/sarcastic-geek.gif",
+    "render:mp3": "remotion render SarcasticGeek --codec=mp3 out/sarcastic-geek.mp3",
+    "still": "remotion still",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.487",
+    "@remotion/media": "^4.0.487",
+    "@remotion/player": "^4.0.487",
+    "@remotion/sfx": "^4.0.487",
+    "@remotion/shapes": "^4.0.487",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "remotion": "^4.0.487"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "typescript": "~5.7.0"
+  }
+}

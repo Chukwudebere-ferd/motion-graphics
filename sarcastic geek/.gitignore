@@ -1,0 +1,8 @@
+node_modules
+dist
+out
+.cache
+*.mp4
+*.webm
+*.gif
+*.mp3
